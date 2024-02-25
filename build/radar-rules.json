@@ -23446,6 +23446,19 @@
       }
     ]
   },
+  "lala.im": {
+    "_name": "荒岛",
+    ".": [
+      {
+        "title": "博客",
+        "docs": "https://docs.rsshub.app/routes/blog#huang-dao",
+        "source": [
+          "/"
+        ],
+        "target": "/lala"
+      }
+    ]
+  },
   "lang.live": {
     "_name": "浪 Play 直播",
     ".": [
@@ -31268,6 +31281,19 @@
           "/:id/list.htm"
         ],
         "target": "/shiep/zzb/:id"
+      }
+    ]
+  },
+  "shisu.edu.cn": {
+    "_name": "上海外国语大学",
+    "news": [
+      {
+        "title": "上外新闻",
+        "docs": "https://docs.rsshub.app/routes/university#shang-hai-wai-guo-yu-da-xue",
+        "source": [
+          "/:category/index.html"
+        ],
+        "target": "/shisu/news/:category"
       }
     ]
   },
